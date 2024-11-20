@@ -1,0 +1,70 @@
+1. 1 Layer, 64 Units
+•	Temperature 0.1: Produces very short and often meaningless phrases, such as "nur i" and "whose." The model’s simplicity limits its ability to capture complex language patterns.
+•	Temperature 0.5: Generates slightly more varied text, but phrases remain incoherent or limited in context.
+•	Temperature 1.0: Creativity increases, with phrases like "whilst that gentle desperate," yet coherence is lacking. The single-layer model struggles to provide stylistic depth.
+2. 1 Layer, 128 Units
+•	Temperature 0.1: Shows some improvement in coherence with phrases like "then live in love" and "when all the single sole," though outputs are still short and simple.
+•	Temperature 0.5: Phrases such as "either the watch" and "fri romeo" hint at some thematic relevance, but coherence is limited.
+•	Temperature 1.0: Outputs are creative but fragmented, as seen in phrases like "dead told me" and "whence that i have see thy beautys flower."
+3. 1 Layer, 256 Units
+•	Temperature 0.1: Starts to show improved coherence, e.g., "since brass nor stone nor earth nor boundless," indicating that increased units enhance the model’s complexity.
+•	Temperature 0.5: Generates phrases with moderate coherence and relevance, like "against some and then my verse can."
+•	Temperature 1.0: More expressive but abstract, with phrases like "tis what i wish a minute ere thou art."
+
+ 
+
+
+
+
+4. 2 Layers, 64 Units
+•	Temperature 0.1: Simple, repetitive outputs such as "and" and "and that I might thou fishified."
+•	Temperature 0.5: Shows slight improvement in coherence, with phrases like "methinks like my end."
+•	Temperature 1.0: Text is more creative but lacks coherence, as seen in phrases like "there truth" and "comes this note."
+5. 2 Layers, 128 Units
+•	Temperature 0.1: Outputs start to show stylistic elements, such as "iul i will not" and "from euery."
+•	Temperature 0.5: Produces some coherent phrases, such as "ben whats" and "in plagues and high you strong in blood."
+•	Temperature 1.0: The creativity and style emerge with phrases like "o wasteful stop yourself keeps," though coherence is reduced.
+6. 2 Layers, 256 Units
+•	Temperature 0.1: Generates more structured sentences, like "iul sweet noble" and "rom commend me to thy."
+•	Temperature 0.5: Provides longer phrases that are stylistically accurate, such as "eleven years and god did i."
+•	Temperature 1.0: Creativity is evident, though coherence drops with fragmented phrases like "death so not worn it."
+ 
+
+
+
+
+
+
+
+7. 3 Layers, 64 Units
+•	Temperature 0.1: Produces longer, coherent phrases, like "i seeke it for that ease tis i must not stay."
+•	Temperature 0.5: More expressive and relevant, e.g., "my dismall angel and my."
+•	Temperature 1.0: Creative but difficult to follow, with abstract phrases like "through yourself many to them upon."
+8. 3 Layers, 128 Units
+•	Temperature 0.1: Outputs show narrative structure, e.g., "and his appeal came in the wanton refuse."
+•	Temperature 0.5: Produces coherent phrases with some thematic relevance, such as "I will be a wife."
+•	Temperature 1.0: Shows creativity and complexity, with phrases like "fri make seem praise do all our."
+9. 3 Layers, 256 Units
+•	Temperature 0.1: Coherent and relevant phrases, e.g., "due."
+•	Temperature 0.5: Generates longer, expressive phrases with thematic relevance, though coherence drops with phrases like "for thou the nine and where so."
+•	Temperature 1.0: Highly creative, though fragmented and abstract, as seen in phrases like "whose fair would were me."
+ 
+
+
+
+
+
+
+
+
+Final Recommendations
+Best Configuration: The 3-layer model with 128 or 256 units per layer consistently provides the best balance of coherence and stylistic relevance. Specifically:
+•	128 Units yields coherent text with stylistic fidelity and meaningful context.
+•	256 Units offers higher complexity, with creative but occasionally fragmented text.
+Optimal Temperature:
+•	0.5 provides a balance between creativity and coherence, generating meaningful sentences with stylistic depth.
+•	0.1 produces safer but simpler sentences, useful for consistent but less creative text.
+Prompts:
+•	The model responds well to Shakespearean prompts, especially with 3 layers and 128 or 256 units, capturing stylistic elements and vocabulary.
+This configuration best supports your goal of generating text with coherence and stylistic accuracy reflective of Shakespearean language.
+
